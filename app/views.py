@@ -112,9 +112,6 @@ def query():
 		b.append(float(s[1]))
 		a.append(b)
 	b = dict(a)
-	pprint.pprint(json_dict["summary"])
-	pprint.pprint(query)
-	pprint.pprint(b)
 
 	return jsonify(b)
 	
